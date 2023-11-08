@@ -8,17 +8,20 @@ import { Link,Navigate } from "react-router-dom";
 
 
 const Navbar= styled.div`
-width: 100%;
-height: 50px;
-background-color: red;
-color: #fff;
+display:flex;
+flex-direction: row;
+width:375px;
+height: 60px;
+margin: 0 auto;
+  overflow-x: hidden;
+
 `
 const HomeNavbar=()=>{
 
     return(
         <>
         <Navbar>
-        Navbar
+
         </Navbar>
             
         </>

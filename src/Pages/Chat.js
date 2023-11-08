@@ -1,21 +1,21 @@
 import React from "react";
-import Homeweb from "../Components/Web/Homeweb";
+import Chatweb from "../Components/Web/Chatweb";
 import HomeNavbar from "../Components/Web/Homenavbar";
 import HomeFooter from "../Components/Web/HomeFooter";
 
 
 
-const Home=()=>{
+const Chat=()=>{
 
 
     return(
         <>
         
-        <Homeweb/>
-    
+        <Chatweb/>
+       
         
         </>
     )
 }
 
-export default Home;
+export default Chat;
