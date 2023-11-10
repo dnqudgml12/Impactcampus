@@ -9,7 +9,8 @@ import Mento from './Components/Web/Mento/Mento';
 import { MentoinformProvider } from './Components/Contextapi/Context';
 import Boarddetail from './Components/Web/Board/Boarddetail';
 import Policyboard from './Components/Web/Policy/Policyboard';
-import Homepolicysuggest from './Components/Web/Home/Homepolicysuggest';
+
+import Policysuggest from './Components/Web/Policy/Policysuggest';
 function App() {
   return (
     <MentoinformProvider>
@@ -33,7 +34,7 @@ function App() {
         <Route path='/policyboard/:id' element={<Policyboard/>}/>
       </Routes>
       <Routes>
-        <Route path='/policysuggest/:id' element={<Homepolicysuggest />}/>
+        <Route path='/policysuggest/:id' element={<Policysuggest />}/>
       </Routes>
     </Router>
     </MentoinformProvider>

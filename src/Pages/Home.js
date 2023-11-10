@@ -4,6 +4,7 @@ import Homemento from "../Components/Web/Home/Homemento";
 import HomeQuestionboard from "../Components/Web/Home/HomeQuestionboard";
 import HomeshinchungPolicy from "../Components/Web/Home/HomeshinchungPolicy";
 import Homepolicyboard from "../Components/Web/Home/HomePolicyBoard";
+import Homepolicysuggest from "../Components/Web/Home/Homepolicysuggest";
 
 
 
@@ -36,6 +37,7 @@ const Home=()=>{
                 <HomeQuestionboard/>
                 <Homepolicyboard/>
                 <HomeshinchungPolicy/>
+                <Homepolicysuggest/>
                 
             </Background>
         </Div>
