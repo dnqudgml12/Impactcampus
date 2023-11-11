@@ -5,6 +5,7 @@ import HomeQuestionboard from "../Components/Web/Home/HomeQuestionboard";
 import HomeshinchungPolicy from "../Components/Web/Home/HomeshinchungPolicy";
 import Homepolicyboard from "../Components/Web/Home/HomePolicyBoard";
 import Homepolicysuggest from "../Components/Web/Home/Homepolicysuggest";
+import HomeNavbar from "../Components/Web/Homenavbar";
 
 
 
@@ -31,7 +32,7 @@ const Home=()=>{
 
     return(
         <>
-<<<<<<< Updated upstream
+
         <Div>
             <Background>
                 <Homemento/>
@@ -42,11 +43,6 @@ const Home=()=>{
                 
             </Background>
         </Div>
-=======
-        <HomeNavbar/>
-        
-        <Homeweb/>
->>>>>>> Stashed changes
     
         
         </>
