@@ -31,6 +31,7 @@ const Home=()=>{
 
     return(
         <>
+<<<<<<< Updated upstream
         <Div>
             <Background>
                 <Homemento/>
@@ -41,6 +42,11 @@ const Home=()=>{
                 
             </Background>
         </Div>
+=======
+        <HomeNavbar/>
+        
+        <Homeweb/>
+>>>>>>> Stashed changes
     
         
         </>
