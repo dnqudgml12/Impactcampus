@@ -32,8 +32,9 @@ const Home=()=>{
 
     return(
         <>
-        <Div>
             <HomeNavbar/>
+
+        <Div>
             <Background>
                 <Homemento/>
                 <HomeQuestionboard/>
