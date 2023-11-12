@@ -22,14 +22,23 @@ margin-left: 16px;
 height: 25%;
 width: 25%;
 `
+const Banner = styled.div`
+color: #000;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 11.44px; /* 81.714% */
+letter-spacing: -0.212px;
+`
 const HomeNavbar=()=>{
 
     return(
         <>
         <Navbar>
           <Logo src={logo}/>
-          <div>게시판</div>
-          <div>1대1채팅</div>
+          <Banner>게시판</Banner>
+          <Banner>1대1채팅</Banner>
         </Navbar>
             
         </>
