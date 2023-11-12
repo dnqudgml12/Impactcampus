@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MentoinformContext } from "../../Contextapi/Context";
 const Mento = () =>{
     const {mentoinform} = useContext(MentoinformContext);
+
+    const [text,settext] = useState();
+
+    
+
+    const Chnage= (e)=>{
+    
+            e.preventDefault();
+            settext(e.target.value);
+        
+
+    }
     
     return(
         <div>
@@ -18,7 +30,10 @@ const Mento = () =>{
             </div>
         ))}
         
-        
+        {/*
+        <input type="text"  onChange={Chnage}/>
+        <div>{text}</div>
+    */}
         </div>
     );
 };

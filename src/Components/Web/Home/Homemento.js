@@ -143,11 +143,11 @@ const Homemento= ()=>{
 
             <Slider
 style={{
-width: "420px",
+width: "100%",
 //paddingLeft: '20px' // 슬라이더 시작 부분에 여백 추가
 }}
-slidesToShow={4.2}
-slidesToScroll={2}
+slidesToShow={4}
+slidesToScroll={1}
 arrows={false}
 //centerMode={true} // 중앙 정렬
 
